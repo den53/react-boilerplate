@@ -13,10 +13,13 @@ folder. Every component can have a css file with the same name as the component
 it belongs to (e.g. `Header.css`). The css can be used inside the JSX after the
 CSS file has been imported with an `import './Header.css'`.
 
-2. For development one can start the development server with `npm run start`. The
+2. Bootstrap can be used inside your JSX everywhere just by including the 
+`className="bootstrap-classes-you-like"` on your JSX elements.
+
+3. For development one can start the development server with `npm run start`. The
 development server support hot reload!
 
-3. To build a production version of the app use `npm run build`. The output will
+4. To build a production version of the app use `npm run build`. The output will
 be in the `/build` directory.
 
 Things to do in the future *Redux*, *ReactRouter* and *Authentication*.
